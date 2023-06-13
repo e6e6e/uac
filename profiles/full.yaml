@@ -11,11 +11,15 @@ artifacts:
   - live_response/process/pstree.yaml
   - live_response/process/ptree.yaml
   - live_response/process/proctree.yaml
+  - live_response/process/deleted.yaml
   - live_response/process/hash_running_processes.yaml
   - live_response/process/strings_running_processes.yaml
 #  - live_response/process/*
   - live_response/network/netstat.yaml
   - live_response/network/ss.yaml
+  - live_response/network/iptables.yaml
+  - live_response/network/ufw.yaml
+  - live_response/network/ifconfig.yaml
   - bodyfile/bodyfile.yaml
   - live_response/system/*
 #  - live_response/hardware/*
