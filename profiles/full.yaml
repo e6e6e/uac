@@ -13,16 +13,17 @@ artifacts:
   - live_response/process/proctree.yaml
   - live_response/process/hash_running_processes.yaml
   - live_response/process/strings_running_processes.yaml
-  - live_response/process/*
-  - live_response/network/*
+#  - live_response/process/*
+  - live_response/network/netstat.yaml
+  - live_response/network/ss.yaml
   - bodyfile/bodyfile.yaml
   - live_response/system/*
-  - live_response/hardware/*
+#  - live_response/hardware/*
   - live_response/packages/*
-  - live_response/storage/*
-  - live_response/containers/*
-  - live_response/vms/*
-  - chkrootkit/chkrootkit.yaml
+#  - live_response/storage/*
+#  - live_response/containers/*
+#  - live_response/vms/*
+#  - chkrootkit/chkrootkit.yaml
   - hash_executables/hash_executables.yaml
   - files/*
   
