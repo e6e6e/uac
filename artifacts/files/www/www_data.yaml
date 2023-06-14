@@ -70,3 +70,10 @@ artifacts:
     path: /usr/local/share/httpd
     file_type: f    
     max_file_size: 5242880 # 5MB
+  -
+    description: Collect /home/bitrix files.
+    supported_os: [aix, freebsd, linux, netbsd, netscaler, openbsd, solaris]
+    collector: file
+    path: /home/bitrix
+    file_type: f    
+    max_file_size: 5242880 # 5MB    
